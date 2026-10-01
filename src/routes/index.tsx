@@ -193,7 +193,7 @@ function Index() {
                 <h2 className="mt-1 font-display text-5xl leading-none">Beetroot<br />Masala</h2>
               </div>
               <div className="absolute inset-x-0 bottom-0 z-10 p-7 md:p-10">
-                <p className="font-display text-6xl leading-[0.84] sm:text-7xl md:text-8xl">Start<br />snacking better</p>
+                <p className="best-seller-cta font-display text-6xl leading-[0.84] sm:text-7xl md:text-8xl">Start<br />snacking better</p>
                 <BrandButton tone="ink-coral" onClick={addToCart} className="mt-6">Shop the drop <ArrowRight size={18} /></BrandButton>
               </div>
             </article>
@@ -242,8 +242,8 @@ function Index() {
               onPointerMove={updateStoryCursor}
               onPointerLeave={() => setStoryCursor((cursor) => ({ ...cursor, visible: false }))}
             >
-              <img src={secondSectionImage} alt="Person pouring NoCap snacks from a canister into a bowl" width={1672} height={941} loading="lazy" className="absolute inset-y-0 right-0 h-full w-full object-cover object-right md:w-[55%]" />
-              <div className="relative z-10 p-8 md:p-12">
+              <img src={secondSectionImage} alt="Person pouring NoCap snacks from a canister into a bowl" width={1672} height={941} loading="lazy" className="story-card__image absolute inset-y-0 right-0 h-full w-full object-cover object-right md:w-[55%]" />
+              <div className="story-card__content relative z-10 p-8 md:p-12">
                 <p className="text-xs font-bold uppercase">No lies. No filler.</p>
                 <h2 className="mt-16 max-w-xl font-display text-7xl leading-[0.9] sm:text-8xl">Crazy about chips.<br />Serious about people.</h2>
                 <p className="mt-6 max-w-md text-base">Familiar flavor, smarter ingredients, and a crunch that never asks you to compromise.</p>

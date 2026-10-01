@@ -272,6 +272,16 @@
   cursor: none;
 }
 
+@media (max-width: 47.999rem) {
+  .story-card__image {
+    object-position: 78% center;
+  }
+
+  .story-card__content {
+    color: var(--ink);
+  }
+}
+
 .story-cursor {
   position: absolute;
   z-index: 20;
@@ -319,9 +329,19 @@
   transform: translateY(0);
 }
 
+.best-seller-cta {
+  display: none;
+}
+
 @media (min-width: 64rem) {
   .site-gutter {
     padding-inline: 0px;
+  }
+}
+
+@media (min-width: 48rem) {
+  .best-seller-cta {
+    display: block;
   }
 }
 
